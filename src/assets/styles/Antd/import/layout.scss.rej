@@ -1,0 +1,4 @@
+diff a/src/assets/styles/Antd/import/layout.scss b/src/assets/styles/Antd/import/layout.scss	(rejected hunks)
+@@ -2 +2 @@
+-@import "assets/styles/mixins.scss";
++@import 'assets/styles/mixins.scss';

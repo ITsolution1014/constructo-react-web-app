@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1466.6667 1466.6667">
+                            <g id="dictate">
+                              <path id="dictate" d="M620.75529 576.1561l212.91183-1.6946" fill="none" stroke="#fbd800" stroke-width="8" stroke-dasharray="24, 8"/>
+                              <path d="M819.83212 593.42322l33.32697-19.24133-33.32697-19.24134" fill="none" stroke="#fbd800" stroke-width="7" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="description">
+                          <path d="M620.75528 813.59372l212.91184-1.6946" fill="none" stroke="#fbd800" stroke-width="8" stroke-dasharray="24, 8"/>
+                          <path d="M819.83212 830.86084l33.32697-19.24133-33.32697-19.24134" fill="none" stroke="#fbd800" stroke-width="7" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="generate-pdf">
+                                <path d="M830.34919 1265.2734l-339.17981-.5649s-31.4183 3.5321-31.4183-31.4183v-37.3859" fill="none" stroke="#fbd800" stroke-width="8" stroke-dasharray="24, 8" stroke-dashoffset="4"/>
+                                <path d="M819.83212 1284.2586l33.32697-19.2413-33.32697-19.2413" fill="none" stroke="#fbd800" stroke-width="7" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="add-multimedia">
+                                <path d="M830.34919 1265.2734l-432.64387-.5649s-31.4183 3.5321-31.4183-31.4183v-37.3859" fill="none" stroke="#fbd800" stroke-width="8" stroke-dasharray="24,8" stroke-dashoffset="4"/>
+                                <path d="M819.83212 1284.2586l33.32697-19.2413-33.32697-19.2413" fill="none" stroke="#fbd800" stroke-width="7" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="sign">
+                              <path d="M830.34919 1265.2734l-217.75642-.5649s-31.4183 3.5321-31.4183-31.4183v-37.3859" fill="none" stroke="#fbd800" stroke-width="8" stroke-dasharray="24, 8" stroke-dashoffset="4"/>
+                              <path d="M819.83212 1284.2586l33.32697-19.2413-33.32697-19.2413" fill="none" stroke="#fbd800" stroke-width="7" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="list-file">
+                                <path d="M830.34915 1265.2734l-534.8951-.5649s-31.4183 3.5321-31.4183-31.4183v-37.3859" fill="none" stroke="#fbd800" stroke-width="8" stroke-dasharray="24, 8" stroke-dashoffset="4"/>
+                                <path d="M819.83215 1284.2586l33.3269-19.2413-33.3269-19.2413" fill="none" stroke="#fbd800" stroke-width="7" stroke-linejoin="bevel"/>
+                            </g>
+                            <g id="list">
+                                <path d="M830.34919 1265.2734l-647.53132-.5649s-31.4183 3.5321-31.4183-31.4183v-37.3859" fill="none" stroke="#fbd800" stroke-width="8" stroke-dasharray="24,8" stroke-dashoffset="16.8"/>
+                                <path d="M819.83212 1284.2586l33.32697-19.2413-33.32697-19.2413" fill="none" stroke="#fbd800" stroke-width="7" stroke-linejoin="bevel" stroke-dasharray="21,7" stroke-dashoffset="14.7"/>
+                            </g>
+
+                        </svg>
