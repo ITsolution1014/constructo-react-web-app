@@ -1,0 +1,11 @@
+.card-body {
+  .select-box {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+    .select {
+      width: 120px;
+    }
+  }
+}

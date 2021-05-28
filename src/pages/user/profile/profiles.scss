@@ -1,0 +1,19 @@
+.input-row-item {
+  position: relative;
+  .PhoneInput {
+    display: flex;
+    .PhoneInputInput {
+      width: 100%;
+    }
+    .PhoneInputCountrySelect {
+      width: 50px;
+      position: absolute;
+      background: transparent;
+      height: 35px;
+      border: none;
+    }
+    .PhoneInputCountryIcon {
+      width: 50px;
+    }
+  }
+}

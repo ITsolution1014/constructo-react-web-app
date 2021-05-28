@@ -1,0 +1,28 @@
+.card-body {
+  .select-box {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+    .select {
+      width: 120px;
+    }
+  }
+}
+.status {
+  width: 70px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.card-body-dark {
+  background-color: #001529;
+}

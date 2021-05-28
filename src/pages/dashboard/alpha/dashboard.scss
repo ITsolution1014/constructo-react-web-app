@@ -1,0 +1,111 @@
+@import 'assets/styles/mixins.scss';
+.card {
+  background-color: $white;
+  .card-body {
+    .current {
+      height: 120px;
+      border: 1px solid #cdcdcd;
+      border-radius: 5px;
+      padding: 8px 20px;
+
+      .currentPage {
+        display: flex;
+        justify-content: space-between;
+
+        .select-box {
+          .select {
+            width: 180px;
+          }
+        }
+      }
+      .input-form {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+
+        .form-items {
+          width: 270px;
+          height: 100%;
+        }
+
+        .form-btn {
+          width: 130px;
+          height: 100%;
+        }
+      }
+    }
+    .btns {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 310px;
+      height: 50px;
+      justify-content: space-between;
+
+      button {
+        height: 100%;
+        width: 98px;
+      }
+    }
+  }
+}
+
+.card-dark {
+  .heading-dark {
+    color: $white;
+  }
+  background-color: #001529;
+  .card-body {
+    .current {
+      height: 120px;
+      border: 1px solid #cdcdcd;
+      border-radius: 5px;
+      padding: 8px 20px;
+
+      .currentPage {
+        display: flex;
+        justify-content: space-between;
+
+        .select-box {
+          .select {
+            width: 180px;
+          }
+        }
+      }
+      .input-form {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+
+        .form-items {
+          width: 270px;
+          height: 100%;
+        }
+
+        .form-btn {
+          width: 130px;
+          height: 100%;
+          background-color: yellow;
+          color: #000;
+        }
+      }
+    }
+    .btns {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 310px;
+      height: 50px;
+      justify-content: space-between;
+
+      button {
+        height: 100%;
+        width: 98px;
+      }
+    }
+  }
+}
