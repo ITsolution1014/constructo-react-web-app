@@ -1,0 +1,22 @@
+.model-box {
+  width: 1000px !important;
+}
+
+.user-modal {
+  left: -225px;
+  width: 400px !important;
+}
+
+.config-modal {
+  right: -225px;
+  width: 400px !important;
+  height: 600px !important;
+
+  .ant-modal-content {
+    height: 100%;
+  }
+}
+.delete-modal {
+  width: 400px !important;
+  height: 300px !important;
+}
