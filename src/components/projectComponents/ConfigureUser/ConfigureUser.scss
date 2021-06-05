@@ -1,0 +1,168 @@
+.user-list {
+  .user-list-title {
+    h3 {
+      margin-bottom: 0;
+      font-size: 28px;
+      width: 90%;
+      line-height: 1;
+    }
+    span {
+      color: #808080;
+      font-size: 16px;
+    }
+    .title-heading {
+      span {
+        font-weight: bold;
+        color: #000;
+      }
+    }
+  }
+  .new-user {
+    margin-top: 16px;
+
+    .new-user-element {
+      color: #808080;
+      padding-left: 7px;
+      font-size: 16px;
+    }
+    .w-80 {
+      width: 100px;
+      margin-top: 3px;
+    }
+
+    .w-60 {
+      width: 220px;
+      margin-top: 3px;
+    }
+
+    form {
+      display: flex;
+      justify-content: space-between;
+
+      .form-group {
+        display: flex;
+        justify-content: space-between;
+        margin: 7px 0 10px 0;
+        width: 100%;
+        height: 40px;
+        input {
+          width: 600px;
+          height: 100%;
+          color: #7f848c !important;
+          box-shadow: none;
+          margin-right: 5px;
+
+          &:focus {
+            color: #b0b9c1;
+            border-radius: 4px;
+            box-shadow: 0 0 5px #cdcdcd;
+            border: 1px solid #cdcdcd;
+          }
+        }
+
+        button {
+          width: 25%;
+          height: 40px;
+          margin-right: 5px;
+          margin-left: 5px;
+          &:nth-child(2) {
+            width: 15%;
+          }
+        }
+      }
+    }
+  }
+
+  .user-list-box {
+    ul {
+      padding-left: 0;
+      max-height: 310px;
+      min-height: 310px;
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        width: 9px;
+      }
+
+      /* background of the scrollbar except button or resizer */
+      &::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+
+      /* scrollbar itself */
+      &::-webkit-scrollbar-thumb {
+        background-color: #a0a0a5;
+        border-radius: 16px;
+      }
+
+      li {
+        list-style: none;
+        font-size: 16px;
+        padding: 10px 10px;
+        color: #7c7c7c;
+        transition: 0.23s ease all;
+        display: flex;
+        justify-content: space-between;
+
+        .user-name {
+          p {
+            margin-bottom: 0;
+          }
+        }
+
+        .user-con-btns {
+          display: flex;
+          height: 100%;
+          .drop-down {
+            margin-right: 7px;
+          }
+
+          .user-con-close {
+            color: #df1c01 !important;
+          }
+        }
+
+        &:hover {
+          background-color: #c7e1f7;
+          color: #1a1f25;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .upper-box {
+    flex-direction: column;
+    .cunstruction-title-btn {
+      display: flex;
+      padding-left: 10px;
+      padding-right: 10px;
+      button {
+        width: 66%;
+        font-size: 12px;
+        margin-right: 10 !important;
+        margin-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+
+    .title {
+      h3 {
+        font-size: 22px;
+        width: 90%;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+.ant-picker-header-view button:not(:first-child) {
+  margin-left: 8px;
+  display: none;
+}
+.ant-picker-header > button {
+  min-width: 1.6em;
+  font-size: 14px;
+  display: none;
+}
